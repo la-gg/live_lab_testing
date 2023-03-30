@@ -15,14 +15,10 @@ print(concat_list)
 even_list = [num for num in concat_list if num % 2 == 0]
 print(even_list)
 # divide the list by two
+my_int = 2
 
-even_list
-
-
-
-
-
-
+end_list = [int(num / my_int) for num in even_list]
+print(end_list)
 
 #2
 import datetime
@@ -34,4 +30,6 @@ start_dict = {'noah': '2/23/1999',
 #              'Zach': datetime(2005, 8, 8)}
 
 # Capitalize the names, put the dates into date time
+
+
 
