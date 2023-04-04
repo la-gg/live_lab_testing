@@ -12,6 +12,7 @@ def first_func(b = 20, c = 30):
 ## you can modify the second function to take on these local varbs in the 
 ## positional args, that just means that whenever you call it you just need to
 ## pass through b and c 
+## Everything the function needs should be passed into it as an arg or a kwarg
 
 def second_func(b, c, d = 40):
     e = 50
