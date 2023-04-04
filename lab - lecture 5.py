@@ -1,6 +1,8 @@
 # 1: This code does not run!  Try it and examine the errors, then figure out 
 # what needs to be changed to make it work.
 
+
+
 a = 10
 
 def first_func(b=20):
