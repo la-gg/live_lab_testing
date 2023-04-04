@@ -5,16 +5,16 @@
 
 a = 10
 
-def first_func(b=20):
-    c = 30
-    value = second_func()
+def first_func(b = 20, c = 30):
+    value = b + c
     return value
 
-def second_func(d=40):
-    e = 50
-    return a + b + c + d + e
+def second_func(d = 40, e = 50):
+    value = first_func(b = 20, c = 30)
+    return a + value + d + e
 
-result = first_func()
+result = second_func(d = 40, e = 50)
+print(result)
 
 
 # 2: Take this code from the last lab and write a function so that the form of
