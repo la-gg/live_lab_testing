@@ -2,11 +2,11 @@
 
 # 1
 class MyClass():
-    def __init__():
+    def __init__(self, a, b):
         self.a = 10
         self.b = 20
         self.x = a + b
-my_instance = MyClass()
+my_instance = MyClass(self.x, a, b)
 my_instance.x
 
 # 2
