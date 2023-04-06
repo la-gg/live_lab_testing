@@ -33,12 +33,11 @@ start_dict = {'noah': '2/23/1999',
 #               'Sarah':datetime(2001, 9, 1),
 #               'Zach': datetime(2005, 8, 8)}
 # HINT: The datetime library has a function that turns strings of the right 
-# format into dates.
-
-
-## My Notes
-## 
-def capitalizing(key):
-    new_key = print()
-    return new_key
-    
+# for into dates.
+def key_func(k):
+    return k.capitalize()
+def val_func(v, date_format='%m/%d/%Y'):
+# Hard coding date_format here (instead of defining as a kwarg) works, but is less flexible.
+    return datetime.datetime.strptime(v, date_format)
+answer = {key_func(k):val_func(v) for k, v in start_dict.items()}
+print(answer)
