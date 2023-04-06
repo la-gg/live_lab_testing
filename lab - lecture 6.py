@@ -6,7 +6,7 @@ class MyClass():
         self.a = 10
         self.b = 20
         self.x = a + b
-my_instance = MyClass(self.x, a, b)
+my_instance = MyClass(10, 20)
 my_instance.x
 
 # 2
@@ -14,13 +14,13 @@ class MyClass():
     def __init__(self):
         a = 10
         b = 20
-        x = a + b
+        self.x = a + b
 my_instance = MyClass()
 my_instance.x
 
 # 3
 class MyClass():
-    def __init__(a, b):
+    def __init__(self, a, b):
         self.x = a + b
 my_instance = MyClass(10, 20)
 my_instance.x
@@ -36,3 +36,12 @@ my_instance.x
 #        sequence elements as an argument and then calculates the sequence.
 #  Note that technically the Fibonacci sequence starts at 0, but for our
 #  coding practice we can calculate it from any two starting values.
+
+
+class FibiNums():
+   def __init__(self, a, b):
+        #needs to take in 0, 1 
+        pass
+   def count(self):
+        #need to count the numbers 
+        pass
