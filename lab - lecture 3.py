@@ -25,6 +25,7 @@ print(x)
 y = 20
 print(x * y)
 
+
 #6
 fave = 'blue'
 color = f'My favorite color is {fave}, what is yours?' 

@@ -39,9 +39,15 @@ my_instance.x
 
 
 class FibiNums():
-   def __init__(self, a, b):
+    def __init__(self, a, b):
         #needs to take in 0, 1 
-        pass
-   def count(self):
+        self.a = a
+        self.b = b
+        self.c = [a, b]
+    def count(self):
         #need to count the numbers 
+        self.x = a + b
         pass
+    def repeat():
+        #I need to get this to repeat over itself
+        
