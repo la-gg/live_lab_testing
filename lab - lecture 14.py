@@ -22,4 +22,4 @@ plt.show()
 # Recreate this plot in Seaborn!
 sns.set()
 sns.scatterplot(data=df, x='sepal_length', y='petal_length',
-                hue=colors, ax=ax)
+                hue='species', palette=colors, ax=ax)
